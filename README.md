@@ -1,20 +1,26 @@
-E-commerce Store REST API
-Overview
+**E-commerce Store REST API**
+
+**Overview**
+
 This project is a Node.js-based REST API for an e-commerce store. It allows users to:
+
 •	Browse products.
 •	Add multiple quantities of products to a cart.
 •	Apply discount codes for every nth order.
 •	Checkout and generate an order invoice.
+
 Admins can:
 •	Generate discount codes.
 •	View sales data including total items sold, total revenue, and discount statistics.
 The API is designed for integration with a frontend UI, enabling seamless user interaction.
 ________________________________________
-Features
+Features:
+
 •	User Endpoints: 
 o	Add, view, and manage cart items.
 o	Apply discount codes (if eligible).
 o	Checkout and clear the cart after order placement.
+
 •	Admin Endpoints: 
 o	Generate discount codes automatically for every nth order.
 o	Retrieve sales analytics (items sold, revenue, discounts).
