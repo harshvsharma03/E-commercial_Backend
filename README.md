@@ -3,7 +3,6 @@
 **Overview**
 
 This project is a Node.js-based REST API for an e-commerce store. It allows users to:
-
 •	Browse products.
 •	Add multiple quantities of products to a cart.
 •	Apply discount codes for every nth order.
@@ -43,7 +42,6 @@ Installation & Usage
 5.	npm install
 6.	Start the server: 
 7.	npm start
-8.	API is available at http://localhost:3000.
 ________________________________________
 API Endpoints
 User Routes
