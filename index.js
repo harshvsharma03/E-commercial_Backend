@@ -8,10 +8,6 @@ const orderRoutes = require('./routes/orderRoutes');
 
 const app = express();
 
-// Views
-app.set('view engine', 'ejs');
-app.set('views', './views'); // Path to the views folder
-
 app.use(bodyParser.json()); // For parsing JSON requests
 
 // Routes
